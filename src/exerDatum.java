@@ -17,9 +17,6 @@ public class exerDatum {
         int date3 = myScanner.nextInt();
 
 
-        System.out.println(date1 + " " + date2 + " " + date3);
-        System.out.println(date1 + "/" + date2 + "/" + date3);
-        System.out.println(date1 + "." + date2 + "." + date3);
 
 
 

@@ -8,12 +8,13 @@ public class Main {
 
         exerScanner myerxerScanner = new exerScanner(); //myerxerScanner.Method();
         exerDatum myexerDatum = new exerDatum(); //myexerDatum.Date();
+        exerLetterChanger myLetterChanger = new exerLetterChanger(); //myLetterChanger.Change
 
 
 
 
         //Run
-        myexerDatum.Date();
+        myLetterChanger.Change();
 
 
 
