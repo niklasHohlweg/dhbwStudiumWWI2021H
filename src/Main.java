@@ -6,11 +6,9 @@ public class Main {
 
         //Instanziierungen von Klassen
 
-        exerScanner myerxerScanner = new exerScanner(); //myerxerScanner.Method();
-        exerDatum myexerDatum = new exerDatum(); //myexerDatum.Date();
-        exerLetterChanger myLetterChanger = new exerLetterChanger(); //myLetterChanger.Change
-
-
+        exerScanner myerxerScanner = new exerScanner();                     //myerxerScanner.Method();
+        exerDatum myexerDatum = new exerDatum();                            //myexerDatum.Date();
+        exerLetterChanger myLetterChanger = new exerLetterChanger();        //myLetterChanger.Change
 
 
         //Run
