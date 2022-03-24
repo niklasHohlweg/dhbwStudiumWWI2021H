@@ -6,8 +6,14 @@ public class Main {
 
         //Instanziierungen von Klassen
 
-        exerScanner myerxerScanner = new exerScanner();
-        myerxerScanner.Method();
+        exerScanner myerxerScanner = new exerScanner(); //myerxerScanner.Method();
+        exerDatum myexerDatum = new exerDatum(); //myexerDatum.Date();
+
+
+
+
+        //Run
+        myexerDatum.Date();
 
 
 
