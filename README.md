@@ -5,5 +5,3 @@
 Hochschule: Duale Huchschule Baden Württemberg
 
 Dozent: Lukas Paffen
-
-Maxis Change
