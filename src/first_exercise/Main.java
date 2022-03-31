@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package first_exercise;
 
 public class Main {
 

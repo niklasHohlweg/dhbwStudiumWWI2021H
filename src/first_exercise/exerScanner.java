@@ -1,3 +1,5 @@
+package first_exercise;
+
 import java.util.Scanner;
 
 public class exerScanner {

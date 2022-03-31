@@ -1,3 +1,5 @@
+package first_exercise;
+
 public class exerLetterChanger {
 
     public void Change(){
