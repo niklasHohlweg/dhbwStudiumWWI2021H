@@ -17,7 +17,6 @@ public class Interaktion {
             if (type == 1) {
 
                 formen = new Kreis();
-                formen = (Kreis) formen;
 
                 ((Kreis) formen).setRadius(numb);
 
@@ -25,7 +24,6 @@ public class Interaktion {
             } else {
 
                 formen = new Quadrat();
-                formen = (Quadrat) formen;
 
                 ((Quadrat) formen).setKantenLaenge(numb);
 
