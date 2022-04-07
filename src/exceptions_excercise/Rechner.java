@@ -2,7 +2,7 @@ package exceptions_excercise;
 
 public class Rechner {
 
-    public int multiply(String a, String b){
+    public int multiply(String a, String b) throws RechnerException{
 
         int op1 = Integer.parseInt(a);
         int op2 = Integer.parseInt(b);
@@ -13,7 +13,7 @@ public class Rechner {
 
     }
 
-    public double divide(String a, String b){
+    public double divide(String a, String b) throws RechnerException{
 
         double op1 = Double.parseDouble(a);
         double op2 = Double.parseDouble(b);
@@ -24,7 +24,7 @@ public class Rechner {
 
     }
 
-    public int add(String a, String b){
+    public int add(String a, String b) throws RechnerException{
 
         int op1 = Integer.parseInt(a);
         int op2 = Integer.parseInt(b);
@@ -35,7 +35,7 @@ public class Rechner {
 
     }
 
-    public int subtract(String a, String b){
+    public int subtract(String a, String b) throws RechnerException{
 
         int op1 = Integer.parseInt(a);
         int op2 = Integer.parseInt(b);
