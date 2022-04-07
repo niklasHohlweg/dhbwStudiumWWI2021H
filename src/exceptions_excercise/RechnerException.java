@@ -12,14 +12,14 @@ public class RechnerException extends Exception{
     }
     public String getOperation(){
         switch(arithmetrischeOperation){
-            case "add ":
-                return "Operation Addition";
+            case "addition":
+                return "Fehler bei Operation Addition";
             case "subtract":
-                return"Operation Subtrahieren";
+                return"Fehler bei Operation Subtrahieren";
             case "multiplication":
-                return"Operation Multiplikation";
+                return"Fehler bei Operation Multiplikation";
             case "division":
-                return" Operation Division";
+                return"Fehler bei  Operation Division";
             default:
                 return "Fehlende Operation";
         }
