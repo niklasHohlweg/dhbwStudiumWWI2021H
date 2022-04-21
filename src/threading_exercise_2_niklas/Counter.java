@@ -1,12 +1,12 @@
-package threading2_exercise;
+package threading_exercise_2_niklas;
 
 public class Counter implements Runnable{
 
-    private int lowerBound;
-    private int upperBound;
-    private int erg;
+    private long lowerBound;
+    private long upperBound;
+    public long result;
 
-    public Counter(int lowerBound, int upperBound){
+    public Counter(long lowerBound, long upperBound){
 
         this.lowerBound = lowerBound;
         this.upperBound = upperBound;
@@ -20,15 +20,10 @@ public class Counter implements Runnable{
 
         for(int i = 0; i <= upperBound - lowerBound; i++){
 
-            erg += (lowerBound + i);
+            result += (lowerBound + i);
 
         }
 
     }
 
-    public int getSum(){
-
-        return erg;
-
-    }
 }
