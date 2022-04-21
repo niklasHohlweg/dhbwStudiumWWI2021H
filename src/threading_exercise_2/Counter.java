@@ -7,13 +7,18 @@ public class Counter implements Runnable {
 
     @Override
     public void run() {
+
         for (int i = lower; i <= upper; i++) {
             erg +=i;
+
         }
     }
+
     public Counter(int pLower, int pUpper){
+
         this.lower = pLower;
         this.upper = pUpper;
+
     }
 }
 
