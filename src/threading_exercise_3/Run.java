@@ -8,10 +8,9 @@ public class Run implements Runnable {
         for (int i = 0; i < 100000; i++) {
             myCounter.increment();
         }
-
     }
 
-    public Run(Counter pCouner) {
-        myCounter = pCouner;
+    public Run(Counter pCounter) {
+        myCounter = pCounter;
     }
 }
