@@ -2,6 +2,6 @@
 
 2. Semester Wirtschaftsinformatik
 
-Hochschule: Duale Huchschule Baden Württemberg
+Hochschule: Duale Hochschule Baden Württemberg (DHBW)
 
 Dozent: Lukas Paffen
