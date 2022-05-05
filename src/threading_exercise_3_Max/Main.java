@@ -1,4 +1,4 @@
-package threading_exercise_3;
+package threading_exercise_3_Max;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -1,4 +1,4 @@
-package threading_exercise_3;
+package threading_exercise_3_Max;
 
 public class Counter {
     private int counter =0;
