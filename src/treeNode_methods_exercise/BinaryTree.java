@@ -3,12 +3,12 @@ package treeNode_methods_exercise;
 import java.util.ArrayList;
 
 public class BinaryTree {
-    private TreeNode head;
+    public static TreeNode root;
     public static ArrayList<Character> nodeList =new ArrayList<>();;
-    public BinaryTree(TreeNode pHead){this.head = head;}
+    public BinaryTree(TreeNode pRoot){this.root = pRoot;}
 
     public static ArrayList<Character> preOrder(TreeNode element){
-        nodeList.add((Character) element.getElement());
+        if(element.getElement() != null){nodeList.add((Character) element.getElement());}
         if(element.getLeft() != null){BinaryTree.preOrder(element.getLeft());}
         if(element.getRight() != null){BinaryTree.preOrder(element.getRight());}
         return nodeList;
@@ -26,5 +26,13 @@ public class BinaryTree {
             nodeList.add((Character) element.getElement());
         }
         return nodeList;
+    }
+    public static void buildTree(){
+        TreeNode root = new TreeNode('L');
+        root.setLeft(new TreeNode<>('A'));
+        root.getLeft().setLeft(new TreeNode<>('H'));
+        root.getLeft().setRight(new TreeNode('L'));
+        root.setRight(new TreeNode<>('O'));
+        root.getRight().setRight(new TreeNode('!'));
     }
 }

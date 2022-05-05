@@ -4,17 +4,12 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode('L');
-        root.setLeft(new TreeNode<>('A'));
-        root.getLeft().setLeft(new TreeNode<>('H'));
-        root.getLeft().setRight(new TreeNode('L'));
-        root.setRight(new TreeNode<>('O'));
-        root.getRight().setRight(new TreeNode('!'));
-        BinaryTree.preOrder(root);
+        BinaryTree.buildTree();
+        BinaryTree.preOrder(BinaryTree.root);
         BinaryTree.nodeList.add('-');
-        BinaryTree.inOrder(root);
+        BinaryTree.inOrder(BinaryTree.root);
         BinaryTree.nodeList.add('-');
-        BinaryTree.postOrder(root);
+        BinaryTree.postOrder(BinaryTree.root);
         for (Character elem: BinaryTree.nodeList) {
             System.out.println(elem);
         }
