@@ -1,4 +1,4 @@
-package threeNode_exercise;
+package treeNode_exercise;
 
 public class Main {
 
@@ -16,6 +16,6 @@ public class Main {
         System.out.println(root.getRight().getRight().getElement());
         System.out.println(root.getRight().getElement());
         System.out.println(root.getElement());
-    }
 
+    }
 }

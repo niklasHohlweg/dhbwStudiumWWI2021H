@@ -10,5 +10,5 @@ public class TreeNode<T> {
     public TreeNode<T> getRight(){return right;}
     public void setRight(TreeNode<T> right){this.right = right;}
     public T getElement(){return element;}
-    public void setElement(T element){this.element= element;}
+    //public void setElement(T element){this.element= element;}
 }

@@ -1,4 +1,4 @@
-package threeNode_exercise;
+package treeNode_exercise;
 
 public class TreeNode<T> {
     private TreeNode<T> left = null;
