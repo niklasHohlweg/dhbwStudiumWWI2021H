@@ -1,4 +1,4 @@
-package threeNode_exercise;
+package threeNode_exercise_Niklas;
 
 public class Main {
 
