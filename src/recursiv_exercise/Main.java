@@ -14,10 +14,11 @@ public class Main {
         if(n ==0 || n==1){return 1;}
         else{return n*fakultaetR(n-1);}
     }
-    private static long fakultaetI(int n){
-        long result =1;
-        if(n ==0 || n==1){return 1;}
-        else{
+    private static long fakultaetI(int n) {
+        long result = 1;
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
             for (int i = 2; i <= n; i++) {
                 result *= i;
             }
