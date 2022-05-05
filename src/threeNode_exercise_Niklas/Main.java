@@ -12,6 +12,7 @@ public class Main {
         root.setRight(new TreeNode('O'));
         root.getRight().setRight(new TreeNode('!'));
 
+        //commit
         System.out.println(root.getElement());
         System.out.println(root.getLeft().getElement());
         System.out.println(root.getLeft().getLeft().getElement());
